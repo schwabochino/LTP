@@ -7,11 +7,10 @@ struct spielerListe
 {
     char *nickName[64];
     struct spielerListe *next;
-
 };
 
 int main()
 {
-
+    printf("kein plan");
     return 0;
 }
