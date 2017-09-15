@@ -1,3 +1,8 @@
+/** Philipp Schwarberg
+Aufgabe 3.2
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
