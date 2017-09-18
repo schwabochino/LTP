@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1505505005 source:c:\users\phili\documents\github\ltp\ltp\main.c
+1505754935 source:c:\users\phili\documents\github\ltp\ltp\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
