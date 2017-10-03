@@ -5,37 +5,28 @@
 #include <math.h>
 #include <math.h>
 
-//Liste der Spieler
-struct spielerListe
+struct spieler
 {
-    char nickName[256];
-    int punkte;
-    struct spielerListe *next;
+    char nick[256];
 
 };
-//Liste der Spiele
-struct gameListe
+
+struct spiele
 {
-    char gameTitel[256];
+    char Titel[256];
     int anzahlSpieler;
-    struct gameListe *next;
+    int anzahlTeams;
 };
-//Zufallsgenerator -> muss verbessert werden?
-int zufall()
-{
-            int diceRoll = 0;
-            diceRoll = (rand()%6)+1;
-            printf("%d\n", diceRoll);
-}
 int main()
 {
-    int durchlauf = 0;
-    printf("\t++++LanTurnierPlaner++++\n");
-    printf("Anazhl der Turnierteilnehmer: " ); //aus den Eingaben auswerten! Wenn 8 Spieler eingegeben dann muss das Proramm schon wissen das es 8 Teilnehmer gibt.
-    scanf("%i", &durchlauf);
-    for (i=0; i<durchlauf; i++)
-        spielerListe;
 
-    fflush(stdin);
+    printf("\t\t\t LTP - Lan Turnier Planer \n");
+
+    //Spielerdaten eingeben
+
+    printf("Nickname: ");
+    scanf("%c", &nick)
+
+
     return 0;
 }
